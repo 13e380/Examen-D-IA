@@ -1,0 +1,123 @@
+{
+  "precision": {
+    "phrases": 40,
+    "correctes": 40,
+    "precision": 100.0,
+    "pieges": 5,
+    "fausses_alertes": 0,
+    "erreurs": []
+  },
+  "difficile": {
+    "phrases": 15,
+    "categorie_correcte": 9,
+    "precision_categorie": 60.0,
+    "victimes_correctes": 13,
+    "precision_victimes": 86.7,
+    "erreurs": [
+      {
+        "phrase": "Personne n'est blessé, juste un petit feu de poubelle",
+        "attendu": "R2",
+        "obtenu": "R2",
+        "victimes_attendues": false,
+        "victimes_detectees": true
+      },
+      {
+        "phrase": "Un camion s'est renversé sur la chaussée",
+        "attendu": "R9",
+        "obtenu": null,
+        "victimes_attendues": false,
+        "victimes_detectees": false
+      },
+      {
+        "phrase": "Le courant est coupé partout depuis ce matin",
+        "attendu": "R13",
+        "obtenu": null,
+        "victimes_attendues": false,
+        "victimes_detectees": false
+      },
+      {
+        "phrase": "Des tirs entendus près du camp militaire",
+        "attendu": "R12",
+        "obtenu": null,
+        "victimes_attendues": false,
+        "victimes_detectees": false
+      },
+      {
+        "phrase": "Le feu rouge du carrefour ne marche plus",
+        "attendu": null,
+        "obtenu": "R2",
+        "victimes_attendues": false,
+        "victimes_detectees": false
+      },
+      {
+        "phrase": "Le prix de la paix est élevé",
+        "attendu": null,
+        "obtenu": "R16",
+        "victimes_attendues": false,
+        "victimes_detectees": false
+      },
+      {
+        "phrase": "Il est mort de rire en regardant le match",
+        "attendu": null,
+        "obtenu": null,
+        "victimes_attendues": false,
+        "victimes_detectees": true
+      },
+      {
+        "phrase": "Fièvre et diarrhée chez beaucoup de voisins",
+        "attendu": "R3",
+        "obtenu": null,
+        "victimes_attendues": false,
+        "victimes_detectees": false
+      }
+    ]
+  },
+  "chainage": {
+    "cas": 238,
+    "cycles_moyen": 1.06,
+    "cycles_max": 3,
+    "cas_sans_deduction": 79,
+    "declenchements_par_regle": {
+      "I1": 119,
+      "I3": 24,
+      "I4": 24,
+      "I5": 28,
+      "I6": 14,
+      "I7": 28,
+      "I8": 16
+    }
+  },
+  "inference_us": 24.07,
+  "temps": [
+    {
+      "incidents": 10,
+      "signalement_ms": 0.053,
+      "chainage_arriere_ms": 0.025,
+      "agenda_ms": 0.017
+    },
+    {
+      "incidents": 100,
+      "signalement_ms": 0.087,
+      "chainage_arriere_ms": 0.038,
+      "agenda_ms": 0.045
+    },
+    {
+      "incidents": 500,
+      "signalement_ms": 0.274,
+      "chainage_arriere_ms": 0.112,
+      "agenda_ms": 0.184
+    },
+    {
+      "incidents": 1000,
+      "signalement_ms": 0.516,
+      "chainage_arriere_ms": 0.199,
+      "agenda_ms": 0.37
+    },
+    {
+      "incidents": 2000,
+      "signalement_ms": 1.004,
+      "chainage_arriere_ms": 0.385,
+      "agenda_ms": 0.742
+    }
+  ]
+}
