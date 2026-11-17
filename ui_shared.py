@@ -523,7 +523,7 @@ def chips_html(labels: list[str], kind: str = "") -> str:
 
 _TRACE_KIND = {
     "Acquisition": "acq", "Instanciation du fait": "fact", "Filtrage et appariement": "match",
-    "Actions déduites": "out", "Résolution de conflit": "conflict", "Sortie Dashboard": "out",
+    "Actions déduites": "out", "Résolution de conflit": "conflict", "Sortie tableau de bord": "out", "Sortie Dashboard": "out",
     "Déploiement du plan": "ok", "Résolution": "ok",
 }
 

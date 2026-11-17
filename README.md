@@ -165,7 +165,7 @@ explicitement signalées comme telles ; elles ne sont pas présentées comme une
   de ville animée (fenêtres, antennes, liens réseau), tuiles d'indicateurs néon, frise de raisonnement, arbre de
   preuve, jauges de disponibilité des unités, carte sombre (CartoDB Dark Matter). Les animations respectent
   le réglage « mouvement réduit » du système.
-- Une copie de l'état précédent a été conservée dans `Dashboard (sauvegarde avant Claude)`.
+- Une copie de l'état précédent a été conservée dans `Smart City (sauvegarde)`.
 
 ## Livrables d'examen — 16/11/2026
 

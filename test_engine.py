@@ -300,7 +300,7 @@ class TestModuleExplication(unittest.TestCase):
         inc = se.signaler("accident avec incendie du camion, blessés", "Kenya")
         titres = [t for t, _ in inc.trace]
         attendus = ["Acquisition", "Instanciation du fait", "Filtrage et appariement",
-                    "Actions déduites", "Résolution de conflit", "Sortie Dashboard"]
+                    "Actions déduites", "Résolution de conflit", "Sortie tableau de bord"]
         positions = [titres.index(t) for t in attendus]
         self.assertEqual(positions, sorted(positions))
         texte = se.expliquer(inc.id)

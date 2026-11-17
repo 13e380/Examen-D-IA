@@ -458,7 +458,7 @@ def _forward_trace(state: CityState, inc: Incident, rec: Recommendation,
         out = f"Unités recommandées : {units}. ETA max : {rec.eta} min.{short}"
     else:
         out = "Aucune unité terrain requise : cellule administrative / commission à mobiliser."
-    steps.append(("Sortie Dashboard", out + " Journalisation complète pour validation par l'opérateur."))
+    steps.append(("Sortie tableau de bord", out + " Journalisation complète pour validation par l'opérateur."))
     return steps
 
 
